@@ -1,0 +1,93 @@
+:root {
+  --b-font-family-base: 'Regular', sans-serif;
+  --b-font-family-medium: 'Medium', sans-serif;
+  --b-font-family-semiBold: 'SemiBold', sans-serif;
+  --b-font-family-bold: 'Bold', sans-serif;
+
+  --b-txt-color1: #282828;
+  --b-txt-color2: #fff;
+  --b-txt-color3: #FFD15C;
+  --b-txt-color4: #222;
+  --b-txt-color5: #f2f2f2;
+
+  --b-bg-color1: #F8F8F8;
+  --b-bg-color2: #000000;
+  --b-bg-color3: #FFD15C;
+  --b-bg-color4: #CCC;
+  --b-bg-color5: #FFF;
+  --b-bg-color6: #F2F2F2;
+
+
+  --b-font-size-xs: 12px;
+  --b-font-size-s: 14px;
+  --b-font-size-m: 16px;
+  --b-font-size-l: 18px;
+  --b-font-size-xl: 20px;
+  --b-font-size-xxl: 34px;
+  --b-font-size-xxxl: 44px;
+  --b-font-size-xxxxl: 52px;
+
+  --b-spacing-xs: 4px;
+  --b-spacing-s: 8px;
+  --b-spacing-m: 16px;
+  --b-spacing-ms: 20px;
+  --b-spacing-l: 30px;
+  --b-spacing-xl: 40px;
+  --b-spacing-xxl: 80px;
+  --b-spacing-xxxl: 128px;
+
+  --b-border-width-xs: 1px;
+
+  --b-container-width: 1160px;
+
+  --b-transition-speed: 0.3s;
+}
+
+@font-face {
+  font-family: 'Regular';
+  src: url('../public/assets/fonts/InstrumentSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Medium';
+  src: url('../public/assets/fonts/InstrumentSans-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'SemiBold';
+  src: url('../public/assets/fonts/InstrumentSans-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bold';
+  src: url('../public/assets/fonts/InstrumentSans-Bold.ttf') format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--b-font-family-base);
+  font-size: var(--b-font-size-l);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+button {
+  outline: none;
+  border: none;
+  color: inherit;
+  background: none;
+  font-size: inherit;
+}

@@ -1,0 +1,46 @@
+.f_xs {
+	font-size: var(--b-font-size-xs);
+}
+.f_s {
+	font-size: var(--b-font-size-s);
+}
+.f_m {
+	font-size: var(--b-font-size-m);
+}
+.f_l {
+	font-size: var(--b-font-size-l);
+}
+.f_xl {
+	font-size: var(--b-font-size-xl);
+}
+.f_xxl {
+	font-size: var(--b-font-size-xxl);
+}
+.f_xxxl {
+	font-size: var(--b-font-size-xxxl);
+}
+.f_xxxxl {
+	font-size: var(--b-font-size-xxxxl);
+}
+.font_medium {
+	font-family: var(--b-font-family-medium);
+}
+.font_bold {
+	font-family: var(--b-font-family-bold);
+}
+.font_semiBold {
+	font-family: var(--b-font-family-semiBold);
+}
+.font_size {
+	font-size: var(--b-font-size-xl);
+}
+.align_center {
+	text-align: center;
+}
+.align_left {
+	text-align: left;
+}
+.text {
+	display: flex;
+	position: relative;
+}
